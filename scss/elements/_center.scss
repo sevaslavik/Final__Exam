@@ -1,0 +1,20 @@
+.center {
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	padding-top: 95px;
+	padding-bottom: 138px;
+	text-align: center;
+	color: $color-dark;
+	
+	&--first-child {
+		background-color: $color-gray;
+	}
+
+	&--last-child {
+		background-color: $color-gray;
+	}
+}

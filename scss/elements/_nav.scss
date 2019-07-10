@@ -1,0 +1,19 @@
+.nav {
+    
+    &__list {
+        display: flex;
+        text-transform: uppercase;
+        list-style: none;
+    }
+
+    &__item {
+
+    }
+
+    &__link {
+        margin-right: 30px;
+        font-family: 'proxima_nova_condensedbold';
+        font-size: 24px;
+        color: $color-white;
+    }
+}

@@ -1,0 +1,37 @@
+.bg-servises {
+    background-image: url('../img/servises-bg.jpg');
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+    align-content: stretch;
+    padding-top: 116px;
+
+    &__title,
+    &__blockquote,
+    &__whu-say {
+        color: $color-white;
+    }
+    
+    &__blockquote,
+    &__whu-say {
+        font-size: 18px;
+    }
+    
+    &__title {
+        padding-bottom: 116px;
+        font-size: 36px;     
+    }
+
+    &__blockquote {
+        font-style: italic;
+        text-align: center;
+    }
+
+    &__whu-say {
+        margin-top: -20px;
+        font-weight: 700;
+    }
+}

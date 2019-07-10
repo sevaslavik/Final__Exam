@@ -1,0 +1,25 @@
+//variables
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+//commons
+@import "commons/general";
+
+//libs
+@import "libs/bootstrap.scss";
+@import "libs/slick";
+@import "libs/slick-theme";
+
+//elements
+@import "elements/slider-manipulation";
+@import "elements/nav";
+@import "elements/gallery";
+@import "elements/center";
+@import "elements/bg-servises";
+
+//parts
+@import "parts/banner-wrapper";
+@import "parts/header";
+@import "parts/about-us";
+@import "parts/works";

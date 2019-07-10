@@ -1,0 +1,17 @@
+.banner-wrapper {
+    background-image: url('../img/banner-wrapper.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+    &__title {
+        font-size: 72px;
+    }
+
+    &__description {
+        font-size: 31px;
+        text-align: center;
+        font-style: italic;
+        color: $color-white;
+    }
+}

@@ -1,0 +1,42 @@
+.about-us {
+    padding-top: 124px;
+    
+    background-color: $color-light-gray;
+
+    &__info {
+        padding-bottom: 120px;
+    }
+
+    &__img {
+        margin-left: -15px;
+    }
+
+    &__description {
+        font-family: $ptSansFont;
+        font-size: 20px;
+        color: $color-dark;
+
+        &:first-child {
+            padding-top: 75px;
+        }
+    }
+
+    &__link {
+        display: inline-block;
+        margin-top: 45px;
+        margin-left: 222px;
+        padding: 17px 50px;
+        font-style: italic;
+        font-size: 20px;
+        text-align: center;
+        color: $color-dark;
+        border: 1px solid $color-dark;
+
+        &:hover {
+            text-decoration: none;
+            color: $color-light-gray;
+            background-color: $color-dark;
+        }
+    }
+}
+
