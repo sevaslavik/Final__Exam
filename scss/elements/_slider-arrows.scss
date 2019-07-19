@@ -1,0 +1,26 @@
+//arrows style
+
+.slider-arrow-prev {
+    position: absolute;
+    top: 40%;
+    left: -10%;
+}
+
+.slider-arrow-next {
+    position: absolute;
+    top: 40%;
+    right: -7%;
+}
+
+.slider-arrow-prev,
+.slider-arrow-next {
+    font-size: 60px;
+    color: $color-dark;
+    background: transparent;
+    border: none;
+}
+
+.works .slider-arrow-prev,
+.works .slider-arrow-next {
+    color: $color-white;
+}

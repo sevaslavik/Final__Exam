@@ -1,0 +1,601 @@
+//for iphon 6/7/8
+@media screen and (min-width: 375px) and (max-width: 736px) {
+
+    .header { 
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-top: 10px;;
+        background-color: $color-dark;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+
+        &__item {
+            width: 100%;
+        }
+
+        &__list {
+            display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0;
+        }
+
+        &__link {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            border-top: 2px solid $color-purple;
+        }
+    }
+
+    .banner-wrapper {
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__description {
+            font-size: 20px;
+        }
+    }
+
+    .about-us__link {
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    .center {
+        padding-bottom: 0;
+
+        &--first-child,
+        &--last-child {
+            background: transparent;
+        }
+    }
+
+    .bg-servises {
+        background: $color-dark;
+
+        &__title {
+            padding-bottom: 10px;
+        }
+    }
+
+    .teem__container {
+        margin-right: 0;
+    }
+
+    .form {
+        padding: 0;
+
+        &__container {
+            flex-wrap: wrap;
+        }
+
+        &__send {
+            padding: 10px 30px;
+        }
+
+        &__textarea {
+            height: 80px;
+        }
+    }
+
+    .get-in-touch {
+
+        &__img {
+            display: none;
+        }
+
+        &__title {
+            display: none;
+        }
+
+        &__input {
+            width: 100%;
+            padding: 15px;
+    
+            &--left {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .up {
+        right: 0;
+        bottom: 0;
+        padding: 0;
+    }
+
+    .down {
+        left: 0;
+        top: 0;
+        padding: 0;
+    }
+
+    .acordeon {
+
+        &--first {
+            top: 65%;
+        }
+
+        &--second {
+            top: 75%;
+        }
+
+        &__img {
+            padding: 10px;
+
+            &--padding {
+                padding: 10px 19px;
+            }
+        }
+
+        &__description {
+            padding: 4px 0;
+        }
+    } 
+
+    .footer-box {
+        &--padding {
+            padding: 0;
+            text-align: center;
+        }
+
+        &__description {
+            padding-left: 30px;
+        }
+    }
+    
+    .footer-padding {
+        padding: 0;
+    }
+}
+
+@media screen and (width: 667px) {
+    .about-us__img {
+        margin-left: 50px;
+    }
+
+    .teem__container{ 
+        height: 300px;
+
+        & > .social {
+            flex-wrap: wrap;
+        }
+    }
+
+    .teem__photo {
+        left: -10%;;
+    }
+
+    .teem__initials {
+        padding-top: 170px;
+        padding-bottom: 0;
+        font-size: 24px;
+    }
+
+    .teem__profession {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .get-in-touch__input {
+        width: 46%;
+
+        &--left {
+            margin-left: 30px;
+        }
+    }
+
+    .acordeon {
+
+        &--first {
+            top: 65%;
+        }
+
+        &--second {
+            bottom: 65%;
+            left: 0;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        &__img {
+            padding: 23px 10px;
+
+            &--padding {
+                padding: 23px 19px;
+            }    
+        }
+
+        &__description {
+            width: 150px;
+        }
+    }
+
+    .up,
+    .down {
+        padding: 0 15px;
+    }
+
+    .up__icon,
+    .down__icon {
+        font-size: 30px;
+    }
+
+    .footer-box__description {
+        padding-left: 100px;
+    }
+}
+
+//for iphone 8+
+@media screen and (width: 414px) {
+    .about-us__img {
+        margin: 0;
+    }
+
+    .teem__photo {
+        left: 17%;
+    }
+
+    .footer-box__description {
+        padding-left: 45px;
+    }
+}
+
+@media screen and (width: 736px) {
+
+    .header { 
+        flex-direction: column;
+        margin-bottom: 40px;
+        padding-top: 10px;;
+        background-color: $color-dark;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+
+        &__item {
+            width: 100%;
+        }
+
+        &__list {
+            display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        margin: 0;
+        }
+
+        &__link {
+            display: inline-block;
+            width: 100%;
+            margin: 0;
+            padding: 10px;
+            border-top: 2px solid $color-purple;
+        }
+    }
+
+    
+
+    .banner-wrapper {
+
+        &__title {
+            font-size: 40px;
+        }
+
+        &__description {
+            font-size: 20px;
+        }
+    }
+
+    .about-us__img {
+        margin-left: 30px;
+    }
+
+    .about-us__link {
+        margin-left: 80px;
+        text-align: center;
+    }
+
+    .teem__container{ 
+        height: 300px;
+        margin: 0;
+        margin-top: 123px;
+
+        & > .social {
+            flex-wrap: wrap;
+        }
+    }
+
+    .teem__photo {
+        left: -10%;;
+    }
+
+    .teem__initials {
+        padding-top: 170px;
+        padding-bottom: 0;
+        font-size: 24px;
+    }
+
+    .teem__profession {
+        margin-bottom: 0;
+        font-size: 18px;
+    }
+
+    .social {
+        padding: 0;
+    }
+
+    .get-in-touch__container {
+        padding-top: 0;
+    }
+
+    .get-in-touch__img {
+        display: none;
+    }
+
+    .get-in-touch__title {
+        display: none;
+    }
+
+    .get-in-touch__input {
+        width: 46%;
+        padding: 10px;
+
+        &--left {
+            margin-left: 30px;
+        }
+    }
+
+    .form {
+        padding-top: 0;
+
+        &__textarea {
+            height: 50px;
+        }
+
+        &__send {
+            padding: 10px 30px;
+        }
+    }
+
+    .acordeon {
+
+        &--first {
+            top: 65%;
+        }
+
+        &--second {
+            top: 55%;
+            left: 0;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        &__img {
+            padding: 23px 10px;
+
+            &--padding {
+                padding: 23px 19px;
+            }    
+        }
+
+        &__description {
+            width: 150px;
+        }
+    }
+
+    .up,
+    .down {
+        padding: 0 15px;
+    }
+
+    .up__icon,
+    .down__icon {
+        font-size: 30px;
+    }
+
+    .footer-box__description {
+        padding-left: 100px;
+    }
+
+
+}
+
+//for Pixel 2XL
+@media screen  and (width: 411px) {
+    .about-us__img {
+        margin: 0;
+    }
+
+    .teem__photo {
+        left: 17%;
+    }
+
+    .footer-box__description {
+        padding-left: 45px;
+    }
+}
+
+//for iphone X 
+
+@media screen and (min-width: 760px) and (max-width: 812px) {
+
+    .header {
+        margin-bottom: 0;
+    }
+
+    .banner-wrapper {
+
+        &__title {
+            font-size: 30px;
+        }
+
+        &__description {
+            font-size: 20px;
+        }
+    }
+
+    .about-us {
+
+        &__img {
+            margin-right: 40px;
+        }
+    }
+
+    .teem__container {
+        margin-right: 0;
+
+        & > .social {
+            flex-wrap: wrap;
+        }    
+    }
+
+    .teem__photo {
+        left: -5%;
+    }
+
+    .get-in-touch {
+
+        &__container {
+            padding-top: 0;
+        }
+
+        &__img {
+            display: none;
+        }
+
+        &__title {
+            display: none;
+        }
+
+        &__input {
+            width: 46%;
+        padding: 10px;
+
+            &--left {
+            margin-left: 30px;
+            }
+        }
+    }
+
+    .form {
+        padding-top: 0;
+
+        &__textarea {
+            height: 50px;
+        }
+
+        &__send {
+            padding: 10px 30px;
+        }
+    }
+
+    .acordeon {
+
+        &--first {
+            top: 35%;
+            left: 0;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        &--second {
+            top: 65%;
+            left: 0;
+            flex-direction: row-reverse;
+            justify-content: flex-end;
+        }
+
+        &__img {
+            padding: 23px 10px;
+
+            &--padding {
+                padding: 23px 19px;
+            }    
+        }
+
+        &__description {
+            width: 250px;
+            padding: 20px 0;
+        }
+    }
+
+    .up,
+    .down {
+        padding: 0;
+    }
+
+    .up__icon,
+    .down__icon {
+        font-size: 30px;
+    }
+
+    .footer-box {
+
+        & .social {
+            flex-wrap: wrap;
+        }
+
+        &__description {
+            display: inline-block;
+            
+            text-align: center;
+            padding-left: 10px;
+        }
+    }
+}
+
+
+@media (min-width: 200px) and (max-width: 1170px) {
+
+    
+
+    .slider-arrow-prev,
+    .slider-arrow-next {
+        display: none;
+        right: 50%;
+        z-index: -1;
+    }
+
+    .teem__container {
+        margin-right: 0;
+
+        & > .social {
+            flex-wrap: wrap;
+        }    
+    }
+
+    .teem__photo {
+        left: -2%;
+    }
+}
+
+@media (min-width: 610px) and (max-width: 736px) {
+
+    .about-us__img  {
+        margin-left: 80px;;
+    }
+
+    .social {
+        flex-wrap: wrap;
+    }
+}

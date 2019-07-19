@@ -1,0 +1,47 @@
+.teem {
+    text-align: center;
+    background-color: $color-light-gray;
+
+    &__img {
+        margin-bottom: 35px;
+        padding-top: 54px;
+    }
+
+    &__title {
+        margin-bottom: 70px;
+        font-size: 36px;
+    }
+
+    &__slider {
+        padding-bottom: 100px;
+    }
+
+    &__container {
+        width: 350px;
+        margin-top: 123px;
+        margin-right: 30px;
+        padding: 0;
+        background-color: $color-white;
+    }
+
+    &__photo {
+        position: absolute;
+        top: -30%;
+        left: 12%;
+    }
+
+    &__initials {
+        padding-top: 160px;
+        padding-bottom: 35px;
+        font-family: $proximaNovaFont;
+        font-size: 30px;
+        color: $color-purple;
+    }
+
+    &__profession {
+        display: inline-block;
+        margin-bottom: 50px;
+        font-size: 24px;
+        font-style: italic;
+    }
+}

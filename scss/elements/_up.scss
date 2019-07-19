@@ -1,0 +1,12 @@
+.up {
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    padding: 15px 30px;
+    background-color: $color-transparent-purple-2;
+
+    &__icon {
+        font-size: 60px;
+        color: $color-white;
+    }
+}

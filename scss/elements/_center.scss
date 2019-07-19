@@ -17,4 +17,17 @@
 	&--last-child {
 		background-color: $color-gray;
 	}
+
+	&-of-form {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
+		justify-content: center;
+		align-items: center;
+		align-content: center;
+		padding-top: 95px;
+		//padding-bottom: 138px;
+		text-align: center;
+		color: $color-dark;
+	}
 }

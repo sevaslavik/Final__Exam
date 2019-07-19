@@ -21,6 +21,30 @@ h3 {
     padding-bottom: 20px;
 }
 
+h4 {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
 p {
     color: $color-dark;
+}
+
+form {
+    font-style: italic;
+}
+
+input,
+textarea {
+    padding: 25px 0;
+    font-style: italic;
+    color: $color-white;
+    background-color: $color-transparent-white;
+    border: none;
+    border-radius: 5px;
+}
+
+textarea {
+    width: 80%;
+    
 }

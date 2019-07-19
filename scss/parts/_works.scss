@@ -1,3 +1,26 @@
 .works {
+    padding: 60px 0;
     background-image: url('../img/recentMorks.jpg');
+    text-align: center;
+
+    &__title {
+        padding-top: 35px;
+        padding-bottom: 65px;
+        color: $color-white;
+    }
+
+    &__carousel {
+        margin-bottom: 105px;
+    }
+
+    &__link {
+        margin-top: 100px;
+        color: $color-white;
+        border: 1px solid $color-white;
+
+        &:hover {
+            color: $color-purple;
+            background-color: $color-white;
+        }
+    }
 }
